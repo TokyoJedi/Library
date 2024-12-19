@@ -1,0 +1,40 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#bookShelf {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  /* border: 1px solid hotpink; */
+  border-radius: 4px;
+  width: 100%;
+  height: auto;
+  /* background-color: hotpink; */
+  justify-content: space-evenly;
+}
+
+.book {
+  display: flex;
+  flex: 1 1 5;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  background-color: bisque;
+  /* border-radius: 4px; */
+  width: 20rem;
+  /* max-width: 160px; */
+  height: 100px;
+  /* align-items: center; */
+  justify-content: center;
+  margin: 10px;
+}
+
+#addBook {
+  display: flex;
+  flex: 1 1 0;
+  margin: auto;
+  /* width: 300px; */
+  /* min-width: 300px; */
+  /* height: 100px; */
+}
